@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title Creative - Start Bootstrap Theme
+        title Kele Klíma épületgépészet
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/img/favicon.ico')
@@ -25,25 +25,29 @@ html(lang='en')
 
         // Core theme CSS (includes Bootstrap)
         link(href='css/styles.css', rel='stylesheet')
-
+        
     body#page-top
 
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top.py-3
             .container
-                a.navbar-brand.js-scroll-trigger(href='#page-top') Start Bootstrap
+
+                a.navbar-brand.js-scroll-trigger(href='#page-top') 
+                    
+                    img.navbar-logo(src="assets/img/logo.svg")                    
+                    | Kele Klíma
                 button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     span.navbar-toggler-icon
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.ml-auto.my-2.my-lg-0
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#about') About
+                            a.nav-link.js-scroll-trigger(href='#about') Rólunk
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#services') Services
+                            a.nav-link.js-scroll-trigger(href='#services') Szolgáltatások
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#portfolio') Portfolio
+                            a.nav-link.js-scroll-trigger(href='#portfolio') Portfolió
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#contact') Contact
+                            a.nav-link.js-scroll-trigger(href='#contact') Kapcsolat
 
         // Masthead
         header.masthead
