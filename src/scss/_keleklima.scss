@@ -1,5 +1,15 @@
+$primary: #bc3a3a;
+$color1:#00cbd2;
+$color2:#160066;
+$color3:#5d5e6f;
 .navbar-logo {
     width: 60px;
 }
 
-$primary: red;
+.navbar-brand.phone:hover {
+    color: auto !important;
+}
+
+.page-section#about {
+    background-color: $color3;
+}

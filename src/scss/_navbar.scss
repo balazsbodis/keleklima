@@ -6,6 +6,9 @@
     .navbar-brand {
         font-family: $font-family-sans-serif;
         font-weight: $font-weight-bold;
+        color: $color2;
+    }
+    .navbar-brand.phone {
         color: $gray-900;
     }
     .navbar-nav {
@@ -31,18 +34,28 @@
         box-shadow: none;
         background-color: transparent;
         .navbar-brand {
-            color: fade-out($white, 0.3);
+            color: $color2;
             &:hover {
-                color: $white;
+                color: fade-in($color2, 0.2);
+            }
+        }
+        .navbar-brand.phone {
+            // color: fade-out($white, 0.3);
+            padding: 0 1rem;
+            font-size: 0.9em;
+            color: $gray-900;
+            &:hover {
+                color: $primary;
             }
         }
         .navbar-nav {
             .nav-item {
                 .nav-link {
-                    color: fade-out($white, 0.3);
+                    // color: fade-out($white, 0.3);
                     padding: 0 1rem;
+                    color: $gray-900;
                     &:hover {
-                        color: $white;
+                        color: $primary;
                     }
                 }
                 &:last-child {
@@ -57,6 +70,9 @@
             box-shadow: $box-shadow;
             background-color: $white;
             .navbar-brand {
+                color: $color2;
+            }
+            .navbar-brand.phone {
                 color: $gray-900;
                 &:hover {
                     color: $primary;
