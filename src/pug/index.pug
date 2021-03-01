@@ -40,12 +40,16 @@ html(lang='en')
                     span.navbar-toggler-icon
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.ml-auto.my-2.my-lg-0
-                        li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#about') Klímaszerelés
+                        //- li.nav-item
+                        //-     a.nav-link.js-scroll-trigger(href='#about') Klímaszerelés
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#services') Szolgáltatások
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#portfolio') Készülékek
+                            a.nav-link.js-scroll-trigger(href='#portfolio') Referenciák
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#devices') Készülékek
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#actions') Akciók
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#contact') Kapcsolat
 
@@ -76,33 +80,83 @@ html(lang='en')
         // Services
         section#services.page-section
             .container
-                h2.text-center.mt-0 Állunk rendelkezésére
+                h2.text-center.mt-0 Szolgáltatásaink
                 hr.divider.my-4
                 .row
-                    .col-lg-3.col-md-6.text-center
+                    .col-lg-2.col-md-6.text-center
                         .mt-5
-                            i.fas.fa-4x.fa-gem.text-primary.mb-4
-                            h3.h4.mb-2 Légkondicionáló megoldások kiépítésében
-                            p.text-muted.mb-0 Our themes are updated regularly to keep them bug free!
-                    .col-lg-3.col-md-6.text-center
+                            i.fas.fa-4x.fa-soap.text-primary.mb-4
+                            h3.h5.mb-2 Tisztítás
+                            //- p.text-muted.mb-0 Our themes are updated regularly to keep them bug free!
+                    .col-lg-2.col-md-6.text-center
                         .mt-5
-                            i.fas.fa-4x.fa-laptop-code.text-primary.mb-4
-                            h3.h4.mb-2 Klímaberendezések karbantartásában
-                            p.text-muted.mb-0 All dependencies are kept current to keep things fresh.
-                    .col-lg-3.col-md-6.text-center
+                            i.fas.fa-4x.fa-hand-sparkles.text-primary.mb-4
+                            h3.h5.mb-2 Karbantartás
+                            //- p.text-muted.mb-0 Our themes are updated regularly to keep them bug free!
+                                                .col-lg-2.col-md-6.text-center
+                    .col-lg-2.col-md-6.text-center
                         .mt-5
-                            i.fas.fa-4x.fa-globe.text-primary.mb-4
-                            h3.h4.mb-2 Fűtés klímával
-                            p.text-muted.mb-0 You can use this design as is, or you can make changes!
-                    .col-lg-3.col-md-6.text-center
+                            i.fas.fa-4x.fa-tools.text-primary.mb-4
+                            h3.h5.mb-2 Telepítés
+                            //- p.text-muted.mb-0 All dependencies are kept current to keep things fresh.
+                    .col-lg-2.col-md-6.text-center
                         .mt-5
-                            i.fas.fa-4x.fa-heart.text-primary.mb-4
-                            h3.h4.mb-2 Javításban
-                            p.text-muted.mb-0 Is it really open source if it's not made with love?
+                            i.fas.fa-4x.fa-recycle.text-primary.mb-4
+                            h3.h5.mb-2 Leszerelés
+                            //- p.text-muted.mb-0 You can use this design as is, or you can make changes!
+                    .col-lg-2.col-md-6.text-center
+                        .mt-5
+                            i.fas.fa-4x.fa-exclamation.text-primary.mb-4
+                            h3.h5.mb-2 Előcsövezés
+                            //- p.text-muted.mb-0 Is it really open source if it's not made with love?
+                    .col-lg-2.col-md-6.text-center
+                        .mt-5
+                            i.fas.fa-4x.fa-wind.text-primary.mb-4
+                            h3.h5.mb-2 Klímagáz töltés
+                            //- p.text-muted.mb-0 Is it really open source if it's not made with love?
+                h4.text-center.mt-4 Tisztítás és karbantartás
+                p 
+                  | 1.es csomag - 9000Ft  (2 klima esetén 15.000 , 3,4,5 db esetén megbeszélés alapján további kedvezmény)
+                  |  /Rendszeresen karbantarott készülék/ 
+                  |  Beltéri egység szűrőjének mosása és burkolatok tisztitása!
+                  |  Beltéri egység gomba- és baktériummentesítése vegyszeres tisztítással
+                  |  Elektromos bekötések ellenőrzése
+                  |  Kondenzvíz kifolyásának ellenőrzése
+                  |  Kültéri egység tisztítása
+                  |  Hűtőkör ellenőrzése, amennyiben szükséges hűtőközeg utántöltése (Hütöközeg árában)
 
+                  | 2.es csomag - 13000Ft  (2 klima esetén 20.000 , 3,4,5 db esetén megbeszélés alapján további kedvezmény) 
+                  |  /Erősen szennyezet régen nem takaríott készülék/
+                  |  Beltéri egység mosása nagynyomású mosóval a penész és por lerakódások kitakarításához
+                  |  Beltéri egység gomba- és baktériummentesítése vegyszeres tisztítással
+                  |  Elektromos bekötések ellenőrzése
+                  |  Kondenzvíz kifolyásának ellenőrzése
+                  |  Kültéri egység tisztítása
+                  |  Hűtőkör ellenőrzése, amennyiben szükséges hűtőközeg utántöltése (Hütöközeg árban)
+                h4.text-center.mt-4 Telepítés 
+                p 
+                  | 1.es csomag - 9000Ft  (2 klima esetén 15.000 , 3,4,5 db esetén megbeszélés alapján további kedvezmény)
+                  |  /Rendszeresen karbantarott készülék/ 
+                  |  Beltéri egység szűrőjének mosása és burkolatok tisztitása!
+                  |  Beltéri egység gomba- és baktériummentesítése vegyszeres tisztítással
+                  |  Elektromos bekötések ellenőrzése
+                  |  Kondenzvíz kifolyásának ellenőrzése
+                  |  Kültéri egység tisztítása
+                  |  Hűtőkör ellenőrzése, amennyiben szükséges hűtőközeg utántöltése (Hütöközeg árában)
+
+                  | 2.es csomag - 13000Ft  (2 klima esetén 20.000 , 3,4,5 db esetén megbeszélés alapján további kedvezmény) 
+                  |  /Erősen szennyezet régen nem takaríott készülék/
+                  |  Beltéri egység mosása nagynyomású mosóval a penész és por lerakódások kitakarításához
+                  |  Beltéri egység gomba- és baktériummentesítése vegyszeres tisztítással
+                  |  Elektromos bekötések ellenőrzése
+                  |  Kondenzvíz kifolyásának ellenőrzése
+                  |  Kültéri egység tisztítása
+                  |  Hűtőkör ellenőrzése, amennyiben szükséges hűtőközeg utántöltése (Hütöközeg árban)
         // Portfolio
         div#portfolio
             .container-fluid.p-0
+                h2.text-center.mt-0 Referenciák
+                hr.divider.my-4
                 .row.no-gutters
                     .col-lg-4.col-sm-6
                         a.portfolio-box(href='assets/img/portfolio/fullsize/1.jpg')
@@ -153,11 +207,16 @@ html(lang='en')
                                 .project-name
                                     | Project Name
 
-        // Call to action
-        //- section.page-section.bg-dark.text-white
-        //-     .container.text-center
-        //-         h2.mb-4 Free Download at Start Bootstrap!
-        //-         a.btn.btn-light.btn-xl(href='https://startbootstrap.com/theme/creative/') Download Now!
+        // Devices
+        section#devices.page-section
+            .container
+                .row.justify-content-center
+                    .col-lg-12.text-center
+                        h3.text-white.mt-4 Készülék ajánlatunk.                     
+                        hr.divider.light.my-4
+                        p.text-white-50.mb-4
+                            | Vannak általunk preferált, elsőbbséget élvező márkák, amik már bizonyították minőségüket és ár érték arányuk megfelelősségét! Ha minket kérdez főleg Daikin és Gree márkákból probáljuk megtalálni az önnek legmegfelelőbb készüléket de az alább feltüntetett márkák bármelyikét beszerezzük és telepítjük önnek! Valamint biztosítjuk a teljes körű garanciát! Gyártói garanciát csak az általünk megvásárolt készülékre tudunk érvényesíteni!!! A nem általunk történt beszerzés esetén garanciát csak a szerelésre tudunk vállalni, aminek időtartama 2 év! A gyártó garancia feltétele az általunk végzett évi kétszeri karbantartás! Egyes készülékekre regisztráció esetén ez akár 10 év kiterjesztett gyártói garanciát is jelenthet. Ez az időtartam gyártótól függő!
+                        a.btn.btn-light.btn-xl.js-scroll-trigger(href='#services') Tovább!
 
         // Contact
         section#contact.page-section

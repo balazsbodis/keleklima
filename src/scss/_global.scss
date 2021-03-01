@@ -1,5 +1,4 @@
 // Global styling for this theme
-
 body,
 html {
     width: 100%;
@@ -7,7 +6,6 @@ html {
 }
 
 //- Custom horizontal rules
-
 hr.divider {
     max-width: 3.25rem;
     border-width: 0.2rem;
@@ -19,13 +17,11 @@ hr.light {
 }
 
 //- Button restyling
-
 .btn {
     font-family: $font-family-sans-serif;
 }
 
 //- Custom XL button styling
-
 .btn-xl {
     padding: 1.25rem 2.25rem;
     font-size: 0.85rem;
@@ -36,7 +32,6 @@ hr.light {
 }
 
 //- Page section styling
-
 .page-section {
-    padding: 8rem 0;
+    padding: 4rem 0;
 }

@@ -16,6 +16,10 @@
   background-color: #5d5e6f;
 }
 
+.page-section#devices {
+  background-color: #5d5e6f;
+}
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -10019,7 +10023,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 4rem 0;
 }
 
 #mainNav {
