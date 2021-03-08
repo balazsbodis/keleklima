@@ -13,11 +13,46 @@
 }
 
 .page-section#about {
-  background-color: #5d5e6f;
+  background-color: #60708d;
 }
 
 .page-section#devices {
   background-color: #5d5e6f;
+}
+
+.page-section#portfolio {
+  padding-bottom: 0;
+}
+
+.text-blue {
+  color: #160066;
+}
+
+.service-details {
+  padding-top: 1px;
+}
+
+.service-details p {
+  padding: 5px 30px 15px 30px;
+}
+
+.service-details h4,
+.service-details h5 {
+  color: #160066;
+}
+
+.service-link {
+  display: block;
+  color: #5d5e6f;
+}
+
+.service-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.service-section {
+  padding-top: 2rem;
 }
 
 /*!
@@ -10038,6 +10073,7 @@ hr.light {
 }
 #mainNav .navbar-brand.phone {
   color: #212529;
+  font-size: 0.9rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #6c757d;
@@ -10064,7 +10100,10 @@ hr.light {
     color: #160066;
   }
   #mainNav .navbar-brand.phone {
-    padding: 0 1rem;
+    padding: 0.25rem 1rem;
+    border-radius: 1rem;
+    background-color: white;
+    display: block;
     font-size: 0.9em;
     color: #212529;
   }
