@@ -10071,6 +10071,12 @@ hr.light {
   font-weight: 700;
   color: #160066;
   font-size: 0.7rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#mainNav .navbar-brand .navbar-logo {
+  width: 50px;
 }
 #mainNav .navbar-brand.phone {
   color: #212529;
@@ -10095,11 +10101,15 @@ hr.light {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    font-size: 1rem;
+    font-size: 1.2rem;
+    flex-direction: row;
     color: #160066;
   }
   #mainNav .navbar-brand:hover {
     color: #160066;
+  }
+  #mainNav .navbar-brand .navbar-logo {
+    width: 60px;
   }
   #mainNav .navbar-brand.phone {
     padding: 0.25rem 1rem;
