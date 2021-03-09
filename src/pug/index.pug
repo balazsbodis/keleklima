@@ -62,8 +62,10 @@ html(lang='en')
                         h1.text-uppercase.text-blue.font-weight-bold Minőségi klímatelepítés, szerelés és karbantartás.
                         hr.divider.my-4
                     .col-lg-8.align-self-baseline
-                        p.font-weight-bold.mb-5
-                            | Teljes körű kivitelezés a vásárlástól az üzembe helyezésig! Ingyenes felmérés és tanácsadás!
+                        p.font-weight-bold.mb-5 
+                            | Teljes körű kivitelezés a vásárlástól az üzembe helyezésig! 
+                            br 
+                            | Ingyenes felmérés és tanácsadás!
                         a.btn.btn-primary.btn-xl.js-scroll-trigger(href='#about') Ezt keresem!
 
         // About
@@ -71,10 +73,21 @@ html(lang='en')
             .container
                 .row.justify-content-center
                     .col-lg-12.text-center
-                        h3.text-white.mt-4 Munkákat Vácon és 50 km-es környezetében vállalunk.                        
+                        h3.text-white.mt-4 Munkákat elsősorban a Dunakanyarban és Vác város 50 km-es vonzáskörzetében vállalunk.
                         hr.divider.light.my-4
-                        p.text-white-50.mb-4
-                            | Vállalkozásunk elsősorban lakossági inverteres split klimákkal foglalkozik! Készülékek telpítését , karbantartását és tisztisát vállaljuk rövid határidőn belül. Számunkra fontos hogy elfogadható áron preciz, jó és tiszta munkát adjunk át ügyfeleinknek a megbeszélt határidőre! Igyekszünk az igényeik szerint megtalálni a legmegfelelőbb jól működő megoldást! Mi akkor vagyunk buszkék ha ön boldog és elégedett ! Munkákat főleg a Duna kanyarban,  Vác 50 km -es vonzáskörében tudunk vállani. Keressen minket bizalommal! 
+                        ul.list-group.list-group-flush.text-white-75.mb-4
+                            li.list-group-item.bg-inherit Vállalkozásunk lakossági 
+                                b.text-white inverteres split klímákkal 
+                                | foglalkozik. 
+                            li.list-group-item.bg-inherit Készülékek 
+                                b.text-white telepítését, karbantartását 
+                                | és 
+                                b.text-white tisztítását 
+                                | vállaljuk 
+                                b.text-white rövid határidőn 
+                                | belül. 
+                            li.list-group-item.bg-inherit Fontos számunkra, hogy elfogadható áron, precíz és tiszta munkát adjunk át ügyfeleinknek, a megbeszélt határidőre! 
+                            //- li.list-group-item Igyekszünk igényeik szerint megtalálni a legmegfelelőbb és jól működő megoldást! 
 
                         a.btn.btn-light.btn-xl.js-scroll-trigger(href='#services') Tovább!
 
@@ -117,12 +130,72 @@ html(lang='en')
                             //- p.text-muted.mb-0 Is it really open source if it's not made with love?
                 #Service-Clean.service-section    
                     .service-details.bg-light
-                        h5.text-center.mt-3 Tisztítás és karbantartás
-                        p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        h4.text-center.mt-3 Tisztítás és karbantartás
+                        div.service-details-content
+                            
+                            div.my-4
+                                div.d-flex.justify-content-between.align-items-center.flex-wrap.mx-2
+                                    h5 Alap 
+                                    h5 9.000 Ft
+                                div.mx-2.mb-2.text-muted 
+                                    | Rendszeresen karbantarott készülék esetén 
+                                    br
+                                    .small 2 db klíma 15.000 Ft, 3 db vagy több esetén egyeztetés alapján, további kedvezménnyel
+                                ul.list-group 
+                                    li.list-group-item Beltéri egység szűrőjének mosása és burkolatok tisztitása!
+                                    li.list-group-item Beltéri egység gomba- és baktériummentesítése vegyszeres tisztítással
+                                    li.list-group-item Elektromos bekötések ellenőrzése
+                                    li.list-group-item Kondenzvíz kifolyásának ellenőrzése
+                                    li.list-group-item Kültéri egység tisztítása
+                                    li.list-group-item Hűtőkör ellenőrzése, amennyiben szükséges hűtőközeg utántöltése (Hütöközeg árában)
+                            
+                            div.my-2
+                                div.d-flex.justify-content-between.align-items-center.flex-wrap.mx-2
+                                    h5 Extra 
+                                    h5 13.000 Ft
+                                div.mx-2.mb-2.text-muted 
+                                    | Erősen szennyezet, régen nem takaríott készülék esetén 
+                                    br
+                                    .small 2 db klíma 20.000 Ft, 3 db vagy több esetén egyeztetés alapján, további kedvezménnyel
+                                ul.list-group 
+                                    li.list-group-item Beltéri egység mosása nagynyomású mosóval, a penész és porlerakódások kitakarításához
+                                    li.list-group-item Beltéri egység gomba- és baktériummentesítése vegyszeres tisztítással
+                                    li.list-group-item Elektromos bekötések ellenőrzése
+                                    li.list-group-item Kondenzvíz kifolyásának ellenőrzése
+                                    li.list-group-item Kültéri egység tisztítása
+                                    li.list-group-item Hűtőkör ellenőrzése, amennyiben szükséges hűtőközeg utántöltése (Hütöközeg árában)
+
                 #Service-Install.service-section  
                     .service-details.bg-light
-                        h5.text-center.mt-3 Telepítés
-                        p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.                    
+                        h4.text-center.mt-3 Telepítés
+                        div.service-details-content
+                            div.my-4
+                                h5.text-left Új klíma telepítése kábelcsatornázással
+                                ul.list-group.list-group-flush 
+                                    li.list-group-item.d-flex.justify-content-between.align-items-center.flex-wrap.bg-inherit
+                                        span 1.5 – 4 kW (3 méter csőhosszig)
+                                        span 50.000 Ft   
+                                    li.list-group-item.d-flex.justify-content-between.align-items-center.flex-wrap.bg-inherit
+                                        span 4 – 8 kW (3 méter csőhosszig)
+                                        span 60.000 Ft  
+                                    li.list-group-item.d-flex.justify-content-between.align-items-center.flex-wrap.bg-inherit
+                                        span 3 méter csövezés felett méterenként 
+                                        span 6.000 Ft 
+                            div.mt-5
+                                h5.text-left Új klíma telepítés, falba süllyesztett csövezéssel
+                                div.mb-2.small.text-muted Az árak tartalmazzák a helyreállítást, a vakolást, de a festési munkálatokat nem.
+                                ul.list-group.list-group-flush 
+                                    li.list-group-item.d-flex.justify-content-between.align-items-center.flex-wrap.bg-inherit
+                                        span 1.5 – 4 kW (3 méter csőhosszig)
+                                        span 75.000 Ft   
+                                    li.list-group-item.d-flex.justify-content-between.align-items-center.flex-wrap.bg-inherit
+                                        span 4 – 8 kW (3 méter csőhosszig)
+                                        span 85.000 Ft  
+                                    li.list-group-item.d-flex.justify-content-between.align-items-center.flex-wrap.bg-inherit
+                                        span 3 méter csövezés felett méterenként 
+                                        span 10.000 Ft 
+
+                        
                 #Service-Unmount.service-section  
                     .service-details.bg-light
                         h5.text-center.mt-3 Leszerelés
@@ -135,6 +208,8 @@ html(lang='en')
                     .service-details.bg-light
                         h5.text-center.mt-3 Klímagáz töltés
                         p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                .text-center.text-muted.mt-5 Feltüntetett áraink bruttó árak
 
         // Portfolio
         section#portfolio.page-section
@@ -208,6 +283,7 @@ html(lang='en')
                 .row.justify-content-center
                     .col-lg-8.text-center
                         h2.mt-0 Keressen bizalommal!
+                        h5.mt-4 Évszaktól függetlenül, ahogy klímája, mi is egész évben dolgozunk!
                         hr.divider.my-4
                         p.text-muted.mb-5
                             | Gindert-Kele Ádám, Épületgépész EV 2600 Vác Jóhegyi Út 70

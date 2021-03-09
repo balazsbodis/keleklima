@@ -2,8 +2,8 @@ $primary: #bc3a3a;
 $color1:#00cbd2;
 $color2:#160066;
 $color3:#5d5e6f;
-// $color4:#3463b8;
-$color4: #60708d;
+$color4: #007bff;
+// $color4: #60708d;
 $color5:#e7e7e7;
 
 
@@ -32,13 +32,13 @@ $color5:#e7e7e7;
 .service-details{
     padding-top: 1px;
 }
-.service-details p{
+.service-details-content{
     padding: 5px 30px 15px 30px
 }
-.service-details h4,
-.service-details h5{
-    color:$color2;
-}
+// .service-details h4,
+// .service-details h5{
+//     color:$color2;
+// }
 
 .service-link{
     display: block;
@@ -50,4 +50,8 @@ $color5:#e7e7e7;
 }
 .service-section{
     padding-top: 2rem;
+}
+
+.bg-inherit{
+    background-color: inherit !important;
 }

@@ -13,7 +13,7 @@
 }
 
 .page-section#about {
-  background-color: #60708d;
+  background-color: #007bff;
 }
 
 .page-section#devices {
@@ -32,13 +32,8 @@
   padding-top: 1px;
 }
 
-.service-details p {
+.service-details-content {
   padding: 5px 30px 15px 30px;
-}
-
-.service-details h4,
-.service-details h5 {
-  color: #160066;
 }
 
 .service-link {
@@ -53,6 +48,10 @@
 
 .service-section {
   padding-top: 2rem;
+}
+
+.bg-inherit {
+  background-color: inherit !important;
 }
 
 /*!
