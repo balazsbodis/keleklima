@@ -4,56 +4,6 @@
 * Copyright 2013-2021 [object Object]
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
 */
-.navbar-logo {
-  width: 60px;
-}
-
-.navbar-brand.phone:hover {
-  color: auto !important;
-}
-
-.page-section#about {
-  background-color: #007bff;
-}
-
-.page-section#devices {
-  background-color: #5d5e6f;
-}
-
-.page-section#portfolio {
-  padding-bottom: 0;
-}
-
-.text-blue {
-  color: #160066;
-}
-
-.service-details {
-  padding-top: 1px;
-}
-
-.service-details-content {
-  padding: 5px 30px 15px 30px;
-}
-
-.service-link {
-  display: block;
-  color: #5d5e6f;
-}
-
-.service-link:hover {
-  text-decoration: none;
-  color: black;
-}
-
-.service-section {
-  padding-top: 2rem;
-}
-
-.bg-inherit {
-  background-color: inherit !important;
-}
-
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors
@@ -10027,6 +9977,67 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.navbar-logo {
+  width: 60px;
+}
+
+.navbar-brand.phone:hover {
+  color: auto !important;
+}
+
+.page-section#about {
+  background-color: #007bff;
+}
+
+.page-section#devices {
+  background-color: #5d5e6f;
+}
+
+.page-section#portfolio {
+  padding-bottom: 0;
+}
+
+.text-blue {
+  color: #160066;
+}
+
+.service-link {
+  display: block;
+  color: #5d5e6f;
+}
+
+.service-link:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.bg-inherit {
+  background-color: inherit !important;
+}
+
+.service-section {
+  padding-top: 2rem;
+}
+.service-section .service-details {
+  padding-top: 1px;
+}
+.service-section .service-details-content {
+  padding: 10px 10px;
+}
+.service-section .list-group-item {
+  font-size: 0.75em;
+  padding: 0.5rem 0.5rem;
+}
+@media (min-width: 992px) {
+  .service-section .list-group-item {
+    font-size: 1em;
+    padding: 0.75rem 1.25rem;
+  }
+  .service-section .service-details-content {
+    padding: 5px 30px 15px 30px;
+  }
+}
+
 body,
 html {
   width: 100%;

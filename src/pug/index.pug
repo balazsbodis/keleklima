@@ -46,11 +46,11 @@ html(lang='en')
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#services') Szolgáltatások
                         li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#portfolio') Referenciák
-                        li.nav-item
                             a.nav-link.js-scroll-trigger(href='#devices') Készülékek
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#actions') Akciók
+                        li.nav-item
+                            a.nav-link.js-scroll-trigger(href='#portfolio') Referenciák
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#contact') Kapcsolat
 
@@ -133,7 +133,7 @@ html(lang='en')
                         h4.text-center.mt-3 Tisztítás és karbantartás
                         div.service-details-content
                             
-                            div.my-4
+                            div.my-2
                                 div.d-flex.justify-content-between.align-items-center.flex-wrap.mx-2
                                     h5 Alap 
                                     h5 9.000 Ft
@@ -149,7 +149,7 @@ html(lang='en')
                                     li.list-group-item Kültéri egység tisztítása
                                     li.list-group-item Hűtőkör ellenőrzése, amennyiben szükséges hűtőközeg utántöltése (Hütöközeg árában)
                             
-                            div.my-2
+                            div.mt-4.mb-2
                                 div.d-flex.justify-content-between.align-items-center.flex-wrap.mx-2
                                     h5 Extra 
                                     h5 13.000 Ft
@@ -169,37 +169,48 @@ html(lang='en')
                     .service-details.bg-light
                         h4.text-center.mt-3 Telepítés
                         div.service-details-content
-                            div.my-4
+                            div.my-2
                                 h5.text-left Új klíma telepítése kábelcsatornázással
                                 ul.list-group.list-group-flush 
-                                    li.list-group-item.d-flex.justify-content-between.align-items-center.flex-wrap.bg-inherit
+                                    li.list-group-item.d-flex.justify-content-between.align-items-center.bg-inherit
                                         span 1.5 – 4 kW (3 méter csőhosszig)
-                                        span 50.000 Ft   
-                                    li.list-group-item.d-flex.justify-content-between.align-items-center.flex-wrap.bg-inherit
+                                        span.text-nowrap 50.000 Ft   
+                                    li.list-group-item.d-flex.justify-content-between.align-items-center.bg-inherit
                                         span 4 – 8 kW (3 méter csőhosszig)
-                                        span 60.000 Ft  
-                                    li.list-group-item.d-flex.justify-content-between.align-items-center.flex-wrap.bg-inherit
+                                        span.text-nowrap 60.000 Ft  
+                                    li.list-group-item.d-flex.justify-content-between.align-items-center.bg-inherit
                                         span 3 méter csövezés felett méterenként 
-                                        span 6.000 Ft 
+                                        span.text-nowrap 6.000 Ft 
                             div.mt-5
                                 h5.text-left Új klíma telepítés, falba süllyesztett csövezéssel
                                 div.mb-2.small.text-muted Az árak tartalmazzák a helyreállítást, a vakolást, de a festési munkálatokat nem.
                                 ul.list-group.list-group-flush 
-                                    li.list-group-item.d-flex.justify-content-between.align-items-center.flex-wrap.bg-inherit
+                                    li.list-group-item.d-flex.justify-content-between.align-items-center.bg-inherit
                                         span 1.5 – 4 kW (3 méter csőhosszig)
-                                        span 75.000 Ft   
-                                    li.list-group-item.d-flex.justify-content-between.align-items-center.flex-wrap.bg-inherit
+                                        span.text-nowrap 75.000 Ft   
+                                    li.list-group-item.d-flex.justify-content-between.align-items-center.bg-inherit
                                         span 4 – 8 kW (3 méter csőhosszig)
-                                        span 85.000 Ft  
-                                    li.list-group-item.d-flex.justify-content-between.align-items-center.flex-wrap.bg-inherit
+                                        span.text-nowrap 85.000 Ft  
+                                    li.list-group-item.d-flex.justify-content-between.align-items-center.bg-inherit
                                         span 3 méter csövezés felett méterenként 
-                                        span 10.000 Ft 
+                                        span.text-nowrap 10.000 Ft 
+
+
+
+                #Service-Unmount.service-section   
+                    .service-details.bg-light
+                        h4.text-center.mt-3 Leszerelés
+                        div.service-details-content
+                            div
+
+                                ul.list-group.list-group-flush 
+                                    li.list-group-item.d-flex.justify-content-between.align-items-center.bg-inherit
+                                        span Kül- és beltéri készülék szakszerű leszerélése, elbontása
+                                            .small.text-muted  Igény esetén a készüléket el tudjuk szállítani
+                                        span.text-nowrap 25.000 Ft   
+
 
                         
-                #Service-Unmount.service-section  
-                    .service-details.bg-light
-                        h5.text-center.mt-3 Leszerelés
-                        p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.         
                 #Service-Prepare.service-section                   
                     .service-details.bg-light
                         h5.text-center.mt-3 Előcsövezés
@@ -210,6 +221,18 @@ html(lang='en')
                         p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
                 .text-center.text-muted.mt-5 Feltüntetett áraink bruttó árak
+
+
+        // Devices
+        section#devices.page-section
+            .container
+                .row.justify-content-center
+                    .col-lg-12.text-center
+                        h3.text-white.mt-4 Készülék ajánlatunk.                     
+                        hr.divider.light.my-4
+                        p.text-white-50.mb-4
+                            | Vannak általunk preferált, elsőbbséget élvező márkák, amik már bizonyították minőségüket és ár érték arányuk megfelelősségét! Ha minket kérdez főleg Daikin és Gree márkákból probáljuk megtalálni az önnek legmegfelelőbb készüléket de az alább feltüntetett márkák bármelyikét beszerezzük és telepítjük önnek! Valamint biztosítjuk a teljes körű garanciát! Gyártói garanciát csak az általünk megvásárolt készülékre tudunk érvényesíteni!!! A nem általunk történt beszerzés esetén garanciát csak a szerelésre tudunk vállalni, aminek időtartama 2 év! A gyártó garancia feltétele az általunk végzett évi kétszeri karbantartás! Egyes készülékekre regisztráció esetén ez akár 10 év kiterjesztett gyártói garanciát is jelenthet. Ez az időtartam gyártótól függő!
+                        //- a.btn.btn-light.btn-xl.js-scroll-trigger(href='#services') Tovább!
 
         // Portfolio
         section#portfolio.page-section
@@ -266,16 +289,7 @@ html(lang='en')
                                 .project-name
                                     | Project Name
 
-        // Devices
-        section#devices.page-section
-            .container
-                .row.justify-content-center
-                    .col-lg-12.text-center
-                        h3.text-white.mt-4 Készülék ajánlatunk.                     
-                        hr.divider.light.my-4
-                        p.text-white-50.mb-4
-                            | Vannak általunk preferált, elsőbbséget élvező márkák, amik már bizonyították minőségüket és ár érték arányuk megfelelősségét! Ha minket kérdez főleg Daikin és Gree márkákból probáljuk megtalálni az önnek legmegfelelőbb készüléket de az alább feltüntetett márkák bármelyikét beszerezzük és telepítjük önnek! Valamint biztosítjuk a teljes körű garanciát! Gyártói garanciát csak az általünk megvásárolt készülékre tudunk érvényesíteni!!! A nem általunk történt beszerzés esetén garanciát csak a szerelésre tudunk vállalni, aminek időtartama 2 év! A gyártó garancia feltétele az általunk végzett évi kétszeri karbantartás! Egyes készülékekre regisztráció esetén ez akár 10 év kiterjesztett gyártói garanciát is jelenthet. Ez az időtartam gyártótól függő!
-                        //- a.btn.btn-light.btn-xl.js-scroll-trigger(href='#services') Tovább!
+
 
         // Contact
         section#contact.page-section
