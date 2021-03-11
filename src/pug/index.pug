@@ -47,8 +47,8 @@ html(lang='en')
                             a.nav-link.js-scroll-trigger(href='#services') Szolgáltatások
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#devices') Készülékek
-                        li.nav-item
-                            a.nav-link.js-scroll-trigger(href='#actions') Akciók
+                        //- li.nav-item
+                        //-     a.nav-link.js-scroll-trigger(href='#actions') Akciók
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#portfolio') Referenciák
                         li.nav-item
@@ -130,7 +130,7 @@ html(lang='en')
                             //- p.text-muted.mb-0 Is it really open source if it's not made with love?
                 #Service-Clean.service-section    
                     .service-details.bg-light
-                        h4.text-center.mt-3 Tisztítás és karbantartás
+                        h4.text-primary.text-center.mt-3 Tisztítás és karbantartás
                         div.service-details-content
                             
                             div.my-2
@@ -167,7 +167,7 @@ html(lang='en')
 
                 #Service-Install.service-section  
                     .service-details.bg-light
-                        h4.text-center.mt-3 Telepítés
+                        h4.text-primary.text-center.mt-3 Telepítés
                         div.service-details-content
                             div.my-2
                                 h5.text-left Új klíma telepítése kábelcsatornázással
@@ -199,26 +199,39 @@ html(lang='en')
 
                 #Service-Unmount.service-section   
                     .service-details.bg-light
-                        h4.text-center.mt-3 Leszerelés
+                        h4.text-primary.text-center.mt-3 Leszerelés
                         div.service-details-content
                             div
-
                                 ul.list-group.list-group-flush 
                                     li.list-group-item.d-flex.justify-content-between.align-items-center.bg-inherit
                                         span Kül- és beltéri készülék szakszerű leszerélése, elbontása
                                             .small.text-muted  Igény esetén a készüléket el tudjuk szállítani
                                         span.text-nowrap 25.000 Ft   
-
-
-                        
-                #Service-Prepare.service-section                   
+         
+                #Service-Prepare.service-section
                     .service-details.bg-light
-                        h5.text-center.mt-3 Előcsövezés
-                        p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                #Service-Fill.service-section  
+                        h4.text-primary.text-center.mt-3 Előcsövezés
+                        div.service-details-content
+                            div
+                                ul.list-group.list-group-flush 
+                                    li.list-group-item.bg-inherit
+                                        span Építkezés, lakásfelújítás alkalmával érdemes előre gondolkodni. Felkészülve a későbbi klíma/klímák telepítésére, a szükséges csöveket már rögtön a falban elrejteni.
+                                        .mt-2.text-muted.text-right Árajánlat felmérés alapján.
+
+                #Service-Fill.service-section
                     .service-details.bg-light
-                        h5.text-center.mt-3 Klímagáz töltés
-                        p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        h4.text-primary.text-center.mt-3 Klímagáz töltés
+                        div.service-details-content
+                            div
+                                ul.list-group.list-group-flush 
+                                    li.list-group-item.bg-inherit
+                                        .mt-2.text-muted.text-right Aktuális árainkról kérem érdeklődjön 
+
+                
+                div.text-center
+                    h6.mt-5 Egyéb lehetséges anyagköltségek
+                    .small.text-muted A tetőtartó konzol árát a szerelés nem tartalmazza (15.000 Ft)
+                    .small.text-muted A készülék által megengedett távolságnál hosszabb csövezés esetén gáz rátöltés gáz anyagárban.
 
                 .text-center.text-muted.mt-5 Feltüntetett áraink bruttó árak
 
@@ -230,10 +243,28 @@ html(lang='en')
                     .col-lg-12.text-center
                         h3.text-white.mt-4 Készülék ajánlatunk.                     
                         hr.divider.light.my-4
-                        p.text-white-50.mb-4
-                            | Vannak általunk preferált, elsőbbséget élvező márkák, amik már bizonyították minőségüket és ár érték arányuk megfelelősségét! Ha minket kérdez főleg Daikin és Gree márkákból probáljuk megtalálni az önnek legmegfelelőbb készüléket de az alább feltüntetett márkák bármelyikét beszerezzük és telepítjük önnek! Valamint biztosítjuk a teljes körű garanciát! Gyártói garanciát csak az általünk megvásárolt készülékre tudunk érvényesíteni!!! A nem általunk történt beszerzés esetén garanciát csak a szerelésre tudunk vállalni, aminek időtartama 2 év! A gyártó garancia feltétele az általunk végzett évi kétszeri karbantartás! Egyes készülékekre regisztráció esetén ez akár 10 év kiterjesztett gyártói garanciát is jelenthet. Ez az időtartam gyártótól függő!
-                        //- a.btn.btn-light.btn-xl.js-scroll-trigger(href='#services') Tovább!
-
+                        p.text-white-50.mb-4.text-justify.mx-2
+                            | Vannak általunk preferált, elsőbbséget élvező márkák, melyek már bizonyították minőségüket és kimagaslóan jó ár-érték arányukat! Ha minket kérdez, elsősorban a 
+                            b.text-white-75 Daikin
+                            | és 
+                            b.text-white-75 Gree 
+                            | márkák kínálatát ajánljuk és igyekszünk megtalálni az Önnek legmegfelelőbb készüléket. Természetesen az alább feltüntetett 
+                            b.text-white-75 egyéb márkák 
+                            | bármelyikét beszerezzük és telepítjük Önnek! Továbbá 
+                            b.text-white-75 teljeskörű garanciát 
+                            | vállalunk! 
+                        p.text-white-50.mb-4.text-justify.mx-2
+                            | Gyártói garanciát csak az általunk megvásárolt készülékre tudunk biztosítani! A gyártói garancia feltétele az általunk végzett, évi kétszeri (!!??) karbantartás! Egyes készülékekre regisztráció esetén ez akár 10 év kiterjesztett gyártói garanciát is jelenthet. Ez az időtartam gyártótól függő!
+                        p.text-white-50.mb-4.text-justify.mx-2
+                            | A nem általunk történt beszerzés esetén garanciát a szerelésre vállalunk, melynek időtartama 2 év! 
+                        h5.text-white.mt-4 Kedvenceink
+                        div.d-flex.justify-content-center.align-items-center
+                            img(src="assets/img/daikin-logo.png").brandlogo
+                            img(src="assets/img/gree-logo.png").brandlogo
+                        h5.text-white.mt-4 További ajánlott márkáink   
+                        div.d-flex.justify-content-center.align-items-center
+                            img(src="assets/img/samsung-logo.png").brandlogo
+                            img(src="assets/img/midea-logo.png").brandlogo                           
         // Portfolio
         section#portfolio.page-section
             .container-fluid.p-0
@@ -244,50 +275,44 @@ html(lang='en')
                         a.portfolio-box(href='assets/img/portfolio/fullsize/1.jpg')
                             img.img-fluid(src='assets/img/portfolio/thumbnails/1.jpg', alt='')
                             .portfolio-box-caption
-                                .project-category.text-white-50
-                                    | Category
-                                .project-name
-                                    | Project Name
+                                //- .project-category.text-white-50
+                                //-     | Category
+                                .project-name Sokat
                     .col-lg-4.col-sm-6
                         a.portfolio-box(href='assets/img/portfolio/fullsize/2.jpg')
                             img.img-fluid(src='assets/img/portfolio/thumbnails/2.jpg', alt='')
                             .portfolio-box-caption
-                                .project-category.text-white-50
-                                    | Category
-                                .project-name
-                                    | Project Name
+                                //- .project-category.text-white-50
+                                //-     | Category
+                                .project-name Jót
                     .col-lg-4.col-sm-6
                         a.portfolio-box(href='assets/img/portfolio/fullsize/3.jpg')
                             img.img-fluid(src='assets/img/portfolio/thumbnails/3.jpg', alt='')
                             .portfolio-box-caption
-                                .project-category.text-white-50
-                                    | Category
-                                .project-name
-                                    | Project Name
+                                //- .project-category.text-white-50
+                                //-     | Category
+                                .project-name Szépet
                     .col-lg-4.col-sm-6
                         a.portfolio-box(href='assets/img/portfolio/fullsize/4.jpg')
                             img.img-fluid(src='assets/img/portfolio/thumbnails/4.jpg', alt='')
                             .portfolio-box-caption
-                                .project-category.text-white-50
-                                    | Category
-                                .project-name
-                                    | Project Name
+                                //- .project-category.text-white-50
+                                //-     | Category
+                                .project-name Tisztán
                     .col-lg-4.col-sm-6
                         a.portfolio-box(href='assets/img/portfolio/fullsize/5.jpg')
                             img.img-fluid(src='assets/img/portfolio/thumbnails/5.jpg', alt='')
                             .portfolio-box-caption
-                                .project-category.text-white-50
-                                    | Category
-                                .project-name
-                                    | Project Name
+                                //- .project-category.text-white-50
+                                //-     | Category
+                                .project-name Gyorsan
                     .col-lg-4.col-sm-6
                         a.portfolio-box(href='assets/img/portfolio/fullsize/6.jpg')
                             img.img-fluid(src='assets/img/portfolio/thumbnails/6.jpg', alt='')
                             .portfolio-box-caption.p-3
-                                .project-category.text-white-50
-                                    | Category
-                                .project-name
-                                    | Project Name
+                                //- .project-category.text-white-50
+                                //-     | Category
+                                .project-name Mindenkinek
 
 
 

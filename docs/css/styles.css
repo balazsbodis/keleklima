@@ -10038,6 +10038,11 @@ h3 {
   }
 }
 
+.brandlogo {
+  width: 10rem;
+  margin: 1em;
+}
+
 body,
 html {
   width: 100%;
@@ -10214,7 +10219,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(188, 58, 58, 0.9);
+  background: rgba(0, 123, 255, 0.8);
   transition: opacity 0.25s ease;
   text-align: center;
 }
