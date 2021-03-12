@@ -9986,7 +9986,7 @@ h3 {
 }
 
 .page-section#about {
-  background-color: #007bff;
+  background-color: #8191a7;
 }
 
 .page-section#devices {
@@ -10222,7 +10222,7 @@ header.masthead h1 {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(0, 123, 255, 0.8);
+  background: rgba(129, 145, 167, 0.8);
   transition: opacity 0.25s ease;
   text-align: center;
 }
