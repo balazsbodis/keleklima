@@ -10042,8 +10042,9 @@ h3 {
 }
 
 .brandlogo {
-  width: 10rem;
+  max-width: 10rem;
   margin: 1em;
+  max-height: 4rem;
 }
 
 body,
@@ -10088,17 +10089,21 @@ hr.light {
   font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   color: #160066;
-  font-size: 0.7rem;
+  font-size: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 0;
 }
 #mainNav .navbar-brand .navbar-logo {
-  width: 50px;
+  height: 50px;
+}
+#mainNav .navbar-brand span {
+  font-weight: 200;
 }
 #mainNav .navbar-brand.phone {
   color: #212529;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   color: #6c757d;
@@ -10119,15 +10124,18 @@ hr.light {
     background-color: transparent;
   }
   #mainNav .navbar-brand {
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     flex-direction: row;
     color: #160066;
+    margin-right: 1rem;
   }
   #mainNav .navbar-brand:hover {
     color: #160066;
   }
   #mainNav .navbar-brand .navbar-logo {
     width: 60px;
+    margin-top: -10px;
+    margin-right: 10px;
   }
   #mainNav .navbar-brand.phone {
     padding: 0.25rem 1rem;

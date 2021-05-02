@@ -33,10 +33,12 @@ html(lang='en')
             .container
 
                 a.navbar-brand.js-scroll-trigger(href='#page-top')
-                    img.navbar-logo(src="assets/img/logo.svg")                    
-                    | Kele Klíma
-                a(href="tel:+36701234567").navbar-brand.phone 
-                    | +36 70 1234567
+                    img.navbar-logo(src="assets/img/logo.svg")
+                    div                   
+                        b Kele
+                        span Klíma
+                a(href="tel:+36202373117").navbar-brand.phone 
+                    | +36 20 237 31 17
                 button.navbar-toggler.navbar-toggler-right(type='button', data-toggle='collapse', data-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     span.navbar-toggler-icon
                 #navbarResponsive.collapse.navbar-collapse
@@ -128,6 +130,10 @@ html(lang='en')
                             i.fas.fa-4x.fa-wind.text-primary.mb-4
                             h3.h5.mb-2 Klímagáz töltés
                             //- p.text-muted.mb-0 Is it really open source if it's not made with love?
+                
+                
+                .text-center.text-muted.mt-5 Feltüntetett áraink bruttó árak
+                
                 #Service-Clean.service-section    
                     .service-details.bg-light
                         h4.text-primary.text-center.mt-3 Tisztítás és karbantartás
@@ -189,6 +195,8 @@ html(lang='en')
                                     li.list-group-item Kondenzvíz kifolyásának ellenőrzése
                                     li.list-group-item Kültéri egység tisztítása
                                     li.list-group-item Hűtőkör ellenőrzése, amennyiben szükséges hűtőközeg utántöltése (Hütöközeg árában)
+
+
 
                 #Service-Install.service-section  
                     .service-details.bg-light
@@ -286,10 +294,16 @@ html(lang='en')
                         div.d-flex.justify-content-center.align-items-center
                             img(src="assets/img/daikin-logo.png").brandlogo
                             img(src="assets/img/gree-logo.png").brandlogo
-                        h5.text-white.mt-4 További ajánlott márkáink   
+                        h5.text-white.mt-4 További lehetséges márkák   
                         div.d-flex.justify-content-center.align-items-center
-                            img(src="assets/img/samsung-logo.png").brandlogo
                             img(src="assets/img/midea-logo.png").brandlogo                           
+                            img(src="assets/img/mdv-logo.png").brandlogo
+                            img(src="assets/img/panasonic-logo.png").brandlogo
+                            img(src="assets/img/lg-logo.png").brandlogo
+                            img(src="assets/img/fujitsu-logo.png").brandlogo
+                            img(src="assets/img/fisher-logo.png").brandlogo
+                            img(src="assets/img/toshiba-logo.png").brandlogo
+
         // Portfolio
         section#portfolio.page-section
             .container-fluid.p-0
@@ -353,17 +367,17 @@ html(lang='en')
                             | Gindert-Kele Ádám, Épületgépész EV 2600 Vác Jóhegyi Út 70
                 .row
                     .col-lg-4.ml-auto.text-center.mb-5.mb-lg-0
-                        a.d-block(href="tel:+36701234567")
+                        a.d-block(href="tel:+36202373117")
                             i.fas.fa-phone.fa-3x.mb-3.text-muted
-                            div +36 70 1234567
+                            div +36 20 237 31 17
                     .col-lg-4.mr-auto.text-center.mb-5.mb-lg-0
-                        a(href="http://facebook.com/keleklima" target="_blank") 
+                        a(href="https://www.facebook.com/Kele-Kl%C3%ADma-104497878439493" target="_blank") 
                             i.fab.fa-facebook.fa-3x.mb-3.text-muted
                             div facebook
                     .col-lg-4.mr-auto.text-center
-                        a.d-block(href='mailto:contact@yourwebsite.com')
+                        a.d-block(href='mailto:keleklima@gmail.com')
                             i.fas.fa-envelope.fa-3x.mb-3.text-muted
-                            div contact@yourwebsite.com
+                            div keleklima@gmail.com
 
         // Footer
         //- footer.bg-light.py-5
