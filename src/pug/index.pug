@@ -58,7 +58,7 @@ html(lang='en')
 
         // Masthead        
         input#layer(type="checkbox", name="layer")
-        input#bg1(type="radio", name="background")
+        input#bg1(type="radio", name="background", checked=true)
         input#bg2(type="radio", name="background")
         input#bg3(type="radio", name="background")
         input#bg4(type="radio", name="background")
@@ -83,7 +83,7 @@ html(lang='en')
                             | Ingyenes felmérés és tanácsadás!
                         a.btn.btn-primary.btn-xl.js-scroll-trigger(href='#about') Ezt keresem!
         div.labels
-            label(for="bg1" , checked=true) 1
+            label(for="bg1") 1
             label(for="bg2") 2
             label(for="bg3") 3
             label(for="bg4") 4
@@ -317,11 +317,11 @@ html(lang='en')
                         p.text-white-50.mb-4.text-justify.mx-2
                             | A nem általunk történt beszerzés esetén garanciát a szerelésre vállalunk, melynek időtartama 2 év! 
                         h5.text-white.mt-4 Kedvenceink
-                        div.d-flex.justify-content-center.align-items-center
+                        div.d-flex.justify-content-center.align-items-center.flex-wrap
                             img(src="assets/img/daikin-logo.png").brandlogo
                             img(src="assets/img/gree-logo.png").brandlogo
                         h5.text-white.mt-4 További lehetséges márkák   
-                        div.d-flex.justify-content-center.align-items-center
+                        div.d-flex.justify-content-center.align-items-center.flex-wrap
                             img(src="assets/img/midea-logo.png").brandlogo                           
                             img(src="assets/img/mdv-logo.png").brandlogo
                             img(src="assets/img/panasonic-logo.png").brandlogo
