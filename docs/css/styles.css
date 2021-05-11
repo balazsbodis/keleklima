@@ -4,6 +4,35 @@
 * Copyright 2013-2021 [object Object]
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-creative/blob/master/LICENSE)
 */
+.stickyfacebook {
+  padding: 5px;
+  margin: 0px;
+  position: fixed;
+  right: -260px;
+  top: 110px;
+  width: 300px;
+  z-index: 1100;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50px;
+  color: white;
+  transition: all 0.25s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.stickyfacebook a {
+  margin-left: 10px;
+  color: white;
+}
+.stickyfacebook a:hover {
+  color: white;
+}
+
+.stickyfacebook:hover {
+  right: -30px;
+}
+
 /*!
  * Bootstrap v4.5.3 (https://getbootstrap.com/)
  * Copyright 2011-2020 The Bootstrap Authors

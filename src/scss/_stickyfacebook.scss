@@ -1,0 +1,30 @@
+.stickyfacebook{
+    padding:5px;
+    margin:0px;
+    position:fixed;
+    right:-260px;
+    top:110px;
+    width:300px;
+    z-index: 1100;
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 50px;
+    color: white;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    a {
+        margin-left: 10px;
+        color: white;
+    }
+    a:hover {
+        color: white;
+    }
+}
+.stickyfacebook:hover{
+    right: -30px;
+}
