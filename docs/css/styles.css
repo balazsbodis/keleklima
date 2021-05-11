@@ -10182,6 +10182,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
+  background: url("../assets/img/masthead.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -10208,121 +10209,6 @@ header.masthead h1 {
   header.masthead h1 {
     font-size: 3.5rem;
   }
-}
-
-input#bg1:checked ~ .masthead {
-  background-image: url("../assets/img/bg1.jpg");
-}
-
-input#bg2:checked ~ .masthead {
-  background-image: url("../assets/img/bg2.jpg");
-}
-
-input#bg3:checked ~ .masthead {
-  background-image: url("../assets/img/bg3.jpg");
-}
-
-input#bg4:checked ~ .masthead {
-  background-image: url("../assets/img/bg4.jpg");
-}
-
-input#bg5:checked ~ .masthead {
-  background-image: url("../assets/img/bg5.jpg");
-}
-
-input#bg6:checked ~ .masthead {
-  background-image: url("../assets/img/bg6.jpg");
-}
-
-input#bg7:checked ~ .masthead {
-  background-image: url("../assets/img/bg7.jpg");
-}
-
-input#bg8:checked ~ .masthead {
-  background-image: url("../assets/img/bg8.jpg");
-}
-
-input#bg9:checked ~ .masthead {
-  background-image: url("../assets/img/bg9.jpg");
-}
-
-input#bg10:checked ~ .masthead {
-  background-image: url("../assets/img/bg10.jpg");
-}
-
-input#bg11:checked ~ .masthead {
-  background-image: url("../assets/img/bg11.jpg");
-}
-
-input#bg12:checked ~ .masthead {
-  background-image: url("../assets/img/bg12.jpg");
-}
-
-input#layer:checked ~ input#bg1:checked ~ .masthead {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(128, 128, 128, 0.4) 100%), url("../assets/img/bg1.jpg");
-}
-
-input#layer:checked ~ input#bg2:checked ~ .masthead {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(128, 128, 128, 0.4) 100%), url("../assets/img/bg2.jpg");
-}
-
-input#layer:checked ~ input#bg3:checked ~ .masthead {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(128, 128, 128, 0.4) 100%), url("../assets/img/bg3.jpg");
-}
-
-input#layer:checked ~ input#bg4:checked ~ .masthead {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(128, 128, 128, 0.4) 100%), url("../assets/img/bg4.jpg");
-}
-
-input#layer:checked ~ input#bg5:checked ~ .masthead {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(128, 128, 128, 0.4) 100%), url("../assets/img/bg5.jpg");
-}
-
-input#layer:checked ~ input#bg6:checked ~ .masthead {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(128, 128, 128, 0.4) 100%), url("../assets/img/bg6.jpg");
-}
-
-input#layer:checked ~ input#bg7:checked ~ .masthead {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(128, 128, 128, 0.4) 100%), url("../assets/img/bg7.jpg");
-}
-
-input#layer:checked ~ input#bg8:checked ~ .masthead {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(128, 128, 128, 0.4) 100%), url("../assets/img/bg8.jpg");
-}
-
-input#layer:checked ~ input#bg9:checked ~ .masthead {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(128, 128, 128, 0.4) 100%), url("../assets/img/bg9.jpg");
-}
-
-input#layer:checked ~ input#bg10:checked ~ .masthead {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(128, 128, 128, 0.4) 100%), url("../assets/img/bg10.jpg");
-}
-
-input#layer:checked ~ input#bg11:checked ~ .masthead {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(128, 128, 128, 0.4) 100%), url("../assets/img/bg11.jpg");
-}
-
-input#layer:checked ~ input#bg12:checked ~ .masthead {
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8) 0%, rgba(128, 128, 128, 0.4) 100%), url("../assets/img/bg12.jpg");
-}
-
-input[name=background] {
-  display: none;
-}
-
-input[name=layer] {
-  position: absolute;
-  top: 107px;
-  left: 10px;
-}
-
-.labels {
-  position: absolute;
-  top: 90px;
-  left: 30px;
-}
-.labels label {
-  margin: 10px;
 }
 
 #portfolio .container-fluid, #portfolio .container-sm, #portfolio .container-md, #portfolio .container-lg, #portfolio .container-xl {
